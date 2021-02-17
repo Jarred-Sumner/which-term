@@ -10,6 +10,8 @@ npm install which-term
 
 ## Usage
 
+![](https://user-images.githubusercontent.com/709451/108176039-58234f80-70b6-11eb-876d-b67551e4e922.png)
+
 index.ejs
 
 ```js
