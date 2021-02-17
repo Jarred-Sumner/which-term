@@ -1,6 +1,6 @@
 {
   "name": "which-term",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Return which terminal is in use (macOS only)",
   "main": "index.js",
   "repository": "https://github.com/Jarred-Sumner/which-term",
