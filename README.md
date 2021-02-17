@@ -12,8 +12,8 @@ npm install which-term
 
 index.ejs
 
-```
-import {terminal} from 'which-term';
+```js
+import { terminal } from "which-term";
 
 console.log(terminal);
 // "iterm"
@@ -21,8 +21,8 @@ console.log(terminal);
 
 index.mjs
 
-```
-const {terminal} = require('which-term');
+```js
+const { terminal } = require("which-term");
 
 console.log(terminal);
 // "iterm"
