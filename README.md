@@ -5,7 +5,7 @@ Return which terminal is being used to run the current command.
 ## Installation
 
 ```
-npm install -g which-term
+npm install which-term
 ```
 
 ## Usage
