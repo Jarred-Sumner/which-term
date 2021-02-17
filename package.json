@@ -1,0 +1,30 @@
+{
+  "name": "which-term",
+  "version": "1.0.0",
+  "description": "Return which terminal is in use (macOS only)",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "typescript": "^4.2.0-beta"
+  },
+  "module": "index.mjs",
+  "types": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.ts --format=cjs --outfile=index.js",
+    "build-esm": "esbuild index.ts --format=esm --outfile=index.mjs",
+    "types": "tsc --declaration --emitDeclarationOnly index.ts"
+  },
+  "author": "Jarred Sumner @jarred",
+  "license": "MIT",
+  "keywords": [
+    "hyper",
+    "iterm",
+    "macos",
+    "terminal",
+    "term",
+    "which",
+    "term_prog",
+    "alacritty"
+  ]
+}
