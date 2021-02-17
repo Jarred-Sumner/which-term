@@ -1,14 +1,16 @@
 {
   "name": "which-term",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return which terminal is in use (macOS only)",
   "main": "index.js",
+  "repository": "https://github.com/Jarred-Sumner/which-term",
+  "website": "https://github.com/Jarred-Sumner/which-term",
   "devDependencies": {
     "@types/node": "^14.14.28",
     "typescript": "^4.2.0-beta"
   },
   "module": "index.mjs",
-  "types": "index.mjs",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "esbuild index.ts --format=cjs --outfile=index.js",
